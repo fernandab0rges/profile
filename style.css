@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  background: linear-gradient(to right, #97ccc4, #c8d1f4, #f6f2bb, #fec8fb);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  margin-top: 100px;
+  color: rgb(45, 96, 95);
+  text-align: center;
+}
+
+h1 {
+  font-family: Poppins;
+  font-size: 25px;
+  color: #104153;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 15px;
+  margin-top: 45px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-weight: 500;
+}
+
+.card-top {
+  width: 500px;
+  margin: 0 auto;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+.card-bottom {
+  width: 500px;
+  margin: 0 auto;
+  padding: 0 40px 0 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.button-link {
+  padding: 5px 7px;
+  text-decoration: none;
+  background-color: #4caae8;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+
+}
+
+.button-link:hover {
+  background-color: #0083db;
+  text-decoration: underline;
+  transition: background-color 0.3s ease;
+}
+
+.smoothie:hover {
+  color: #0083db;
+  transition: color 0.3s ease;
+}
+
+.mountain {
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
